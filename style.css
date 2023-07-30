@@ -117,7 +117,7 @@ header {
     margin-bottom: 2rem;
    
 }
-.picyures{
+.pictures{
     margin-top: 2rem;
     padding: 0.5rem 0;
 }
@@ -190,3 +190,20 @@ header {
     background-color: white;
     height: 100%;
 }
+.campaigns{
+    padding: 0.5rem 0;
+}
+.autopilot{
+    width: 100%;
+    margin-block: 5rem;
+
+}
+.campaigns1{
+    margin: 1.5rem;
+    display: inline;
+    
+}
+
+
+
+
