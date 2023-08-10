@@ -190,27 +190,14 @@ header {
     background-color: white;
     height: 100%;
 }
-.campaigns{
-    padding: 0.5rem 0;
-}
-.autopilot{
-    width: 100%;
-    margin-block: 5rem;
 
-}
-.campaigns1{
-    margin: 1.5rem;
-    display: inline;
-    
-}
-
-.send {
+.personnalized{
     text-align: center;
-    font-size: 40px;
-    font-family:'Times New Roman';
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
     color: green;
+    margin: 50px auto;
 }
-
 
 .button {
     display: block;
@@ -220,17 +207,13 @@ header {
     border-radius: 40px;
     background-color: greenyellow;
     margin: 10px auto;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
 
 }
-
-
-
-.signing{
-    margin: 100px 0px 15px 150px;
-}
-
-.woman{
-    margin: 10px 0px 0px -50px;
+.button:hover{
+    background-color: white;
+    color: green;
 }
 
 .done{
@@ -243,5 +226,28 @@ header {
 .handle{
     text-align: center;
     font-size: 15px;
+}
+
+#leftboxes{
+    float: left;
+    width: 25%;
+}
+
+#middleboxes{
+    float: left;
+    width: 50%;
+}
+
+#rightboxes{
+    float: right;
+    width: 25%S;
+}
+
+.sign{
+    margin: 0px 0px 10px 100px;
+}
+
+.woman{
+    margin: auto 0px 0px 50px;
 }
 
